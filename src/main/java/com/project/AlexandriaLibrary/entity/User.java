@@ -1,4 +1,4 @@
-package com.project.BookOrganizer.users.entities;
+package com.project.AlexandriaLibrary.entity;
 
 import jakarta.persistence.*;
 import org.hibernate.validator.constraints.br.CPF;
@@ -43,7 +43,7 @@ public class User {
     @OneToMany(mappedBy = "user")
     private Set<UserBook> userBooks;
 
-    public User(){
+    public User() {
 
     }
 

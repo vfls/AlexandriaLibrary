@@ -1,13 +1,13 @@
-package com.project.BookOrganizer;
+package com.project.AlexandriaLibrary;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookOrganizerApplication {
+public class AlexandriaLibraryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookOrganizerApplication.class, args);
+		SpringApplication.run(AlexandriaLibraryApplication.class, args);
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.project.BookOrganizer.authors.entities;
+package com.project.AlexandriaLibrary.entity;
 
 import jakarta.persistence.*;
 

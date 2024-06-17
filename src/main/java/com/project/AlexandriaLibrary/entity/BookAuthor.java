@@ -1,6 +1,5 @@
-package com.project.BookOrganizer.authors.entities;
+package com.project.AlexandriaLibrary.entity;
 
-import com.project.BookOrganizer.books.entities.Book;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
@@ -36,7 +35,7 @@ public class BookAuthor {
     }
 }
 
-class BookAuthorId implements Serializable{
+class BookAuthorId implements Serializable {
     private Long book;
     private Long author;
 

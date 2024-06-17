@@ -1,7 +1,6 @@
-package com.project.BookOrganizer.books.entities;
+package com.project.AlexandriaLibrary.entity;
 
-import com.project.BookOrganizer.authors.entities.BookAuthor;
-import com.project.BookOrganizer.users.entities.UserBook;
+import com.project.AlexandriaLibrary.enums.Format;
 import jakarta.persistence.*;
 
 import java.util.Set;

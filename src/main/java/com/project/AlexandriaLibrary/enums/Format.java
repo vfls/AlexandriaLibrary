@@ -1,4 +1,4 @@
-package com.project.BookOrganizer.books.entities;
+package com.project.AlexandriaLibrary.enums;
 
 public enum Format {
     HARDCOVER, PAPERBACK, EBOOK, AUDIOBOOK
